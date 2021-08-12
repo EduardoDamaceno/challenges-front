@@ -97,7 +97,7 @@ img{
   color: hsl(245, 75%, 52%);
   font-weight: 700;
   font-size: 1em;
-
+  transition: 0.3s;
 }
 
 /* Buttons */
@@ -108,7 +108,7 @@ img{
   border-radius: 10px;
   background-color:  hsl(245, 75%, 52%);
   border: none;
-  
+  transition: 0.3s;
 }
 
 .card__button-success h2{
@@ -123,10 +123,30 @@ img{
   font-weight: 700;
   text-decoration: none;
   color: hsl(224, 23%, 55%);
+  transition: 0.3s;
 }
 
 /* Atribuiton */
 
 .attribution{
   background-color: hsl(225, 100%, 94%);
+}
+
+/* Hoover */
+
+.content__plan a:hover{
+  color: #766CF1;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.card__button-success:hover{
+  background-color: #766CF1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.cancel:hover{
+  color: hsl(245, 75%, 52%);
+  transition: 0.3s;
 }
