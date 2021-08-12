@@ -29,6 +29,7 @@ img{
 .card-bg{
   background: url("/images/pattern-background-desktop.svg") no-repeat;
   background-color: hsl(225, 100%, 94%);
+  max-width: 100%;
   
   display: flex;
 }
@@ -82,6 +83,7 @@ img{
   font-size: 1em;
   color: hsl(223, 47%, 23%);
   padding: 20px 0;
+  min-width: 100px;
 }
 
 .subtitle__price{
