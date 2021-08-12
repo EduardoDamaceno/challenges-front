@@ -29,4 +29,5 @@
   </ul>
   
   <h1>Demonstração Final</h1>
+  <p>Clique na imagem para ir até a aplicação web</p>
  <a href="https://eduardodamaceno.github.io/challenges-front/challenges/AmazingGraph/index.html"><img src="project_final/amazingGraph.jpg"></a>
