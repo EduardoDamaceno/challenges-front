@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Reset */
+
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #222222;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* General styles */
+body{
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+/* Style */
+
+.header{
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo{
+  margin: 32px 0 31px 0;
+}
+
+.header__nav li{
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.header__nav li:nth-child(1), .header__nav li:nth-child(2){
+  margin: 0 20px;
+}
+
+.header__nav li:nth-child(3){
+  margin: 0 0 0 20px;
+}
+
+.header__nav li img:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+/* Division */
+
+.division{
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.division h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font: 1.1em;
+  margin: 33px 0 28px 0;
+}
+
+.division p{
+  font-weight: 400;
+}
+
+/* Hr */
+
+hr{
+  height: 0.2px;
+  border: none;
+  background-color: #d6d6d6;
+}
+
+/* Products */
+
+.products {
+  display: flex;
+  max-width: 1150px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.products li{
+  margin: 57px 0 23px 0;
+}
