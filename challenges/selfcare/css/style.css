@@ -41,6 +41,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .header__logo{
@@ -106,6 +107,7 @@ hr{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 
 .products li{
