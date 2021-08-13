@@ -96,11 +96,16 @@ hr{
 
 /* Products */
 
-.products {
-  display: flex;
+.products{
   max-width: 1150px;
   margin: 0 auto;
+  flex-basis: 260px;
+}
+
+.products__list{
+  display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .products li{
@@ -125,3 +130,86 @@ hr{
   font-size: 1.3em;
   color: #5CA720;
 }
+
+/* Contact */
+
+.contact{
+  background: #f9f9f9;
+  padding: 40px calc((100% - 1150px) / 2);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact__list li{
+  padding-bottom: 10px;
+}
+
+.contact__list a{
+  color: #161616;
+  text-decoration: none;
+}
+
+
+.contact__form h2{
+  font-size: 1.25em;
+  padding-bottom: 18px;
+}
+
+.contact__form input{
+  width: 397px;
+  padding: 15px 169px 15px 13px;
+  font-size: 1.25em;
+  font-weight: 400;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.contact__form input::placeholder{
+  color: #A8A4A4;
+  width: 400px;
+}
+
+.contact__form button{
+  margin: 0px -10px;
+  border-radius: 0px;
+  font-size: 1.25em;
+  background: #5CA720;
+  color: white;
+  font-weight: 700;
+  border-radius: 0px 5px 5px 0px;
+  letter-spacing: 0.01em;
+  border: none;
+  padding: 15px 33px;
+}
+
+.contact__form input:focus{
+  outline: none;
+} 
+.contact hr{
+  border:  0.2px solid #A5A1A1;
+}
+
+/* Footer */
+
+.footer{
+  background: #f9f9f9;
+  padding: 40px calc((100% - 1150px) / 2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__payment, .footer__socias{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.footer ul li{
+  padding: 0 10px;
+}
+
