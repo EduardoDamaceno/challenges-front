@@ -9,7 +9,7 @@ body, h1, h2, p, ul, li, a {
 
 body{
   font-family: "Nunito", Arial, Helvetica, sans-serif;
-  color: #222222;
+  color: #161616;
 }
 
 ul{
@@ -104,5 +104,24 @@ hr{
 }
 
 .products li{
-  margin: 57px 0 23px 0;
+  margin: 57px 0 65px 0;
+}
+
+.products__list img{
+  margin-bottom: 23px;
+}
+
+.products__list h2{
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.products__list p{
+  margin-top: 11px;
+  font-weight: 700;
+}
+
+.products__list span{
+  font-size: 1.3em;
+  color: #5CA720;
 }
