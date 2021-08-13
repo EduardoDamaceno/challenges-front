@@ -110,8 +110,10 @@ hr{
   
 }
 
+
 .products li{
   margin: 57px 0 65px 0;
+
 }
 
 .products__list img{
@@ -146,6 +148,8 @@ hr{
 .contact__list li{
   padding-bottom: 10px;
 }
+
+
 
 .contact__list a{
   color: #161616;
@@ -215,3 +219,44 @@ hr{
   padding: 0 10px;
 }
 
+@media only screen and (max-width : 500px) {
+/* Header */
+  .header{
+    max-width: 350px;
+  }
+/* Division */
+  .division{
+    max-width: 350px;
+    
+  }
+
+/* Product */
+
+  .products__list li{
+    flex-basis: 200px;
+    padding: 0 30px;
+    margin: 28px 0 10px 0;
+  }
+
+/* Contact */
+
+  .contact__list{
+    padding: 20px 30px;
+    font-weight: 700;
+    
+  }
+
+  .contact__form{
+    padding: 20px 30px ;
+  }
+
+  .contact__form input {
+    width: 350px;
+  }
+
+  .contact__form button{
+    width: 350px;
+    border-radius: 5px;
+    margin: 17px 0 0 0;
+  }
+}
