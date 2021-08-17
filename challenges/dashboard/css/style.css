@@ -389,8 +389,6 @@ body{
 
   .social__network:nth-child(3)::before{
     width: 300px;
-
-    
   }
   /* Overview */
   .overview h1{
