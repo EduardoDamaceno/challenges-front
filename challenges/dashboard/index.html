@@ -2,21 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <header class="header">
+    <div class="header__social">
+        <h1>Social Media Dashboard</h1>
+        <p class="paragraph">Total Followers: 23,004</p>
+    </div>
+    <div class="header__mode">
+      <h2>Dark Mode</h2>
+      <button></button>
+    </div>
+  </header>
 
-  Social Media Dashboard
+  <section class="social">
+    <ul class="social__list">
+      <li class="social__network">
+        <div class="social__network__id">
+          <img src="images/icon-facebook.svg" alt="facebook icon">
+          <p class="paragraph">@nathanf</p>
+        </div>
+        <h1 class="social__nework-followers">1987</h1>
+        <h2>Followers</h2>
+        <div class="social__network__number">
+          <img src="images/icon-up.svg" alt="Up">
+          <h3>12 Today</h3>
+        </div>
+      </li>
+      <li class="social__network">
+        <div class="social__network__id">
+          <img src="images/icon-twitter.svg" alt="facebook icon">
+          <p class="paragraph">@nathanf</p>
+        </div>
+        <h1 class="social__nework-followers">1044</h1>
+        <h2>Followers</h2>
+        <div class="social__network__number">
+          <img src="images/icon-up.svg" alt="Up">
+          <h3>99 Today</h3>
+        </div>
+      </li>
+      <li class="social__network">
+        <div class="social__network__id">
+          <img src="images/icon-instagram.svg" alt="facebook icon">
+          <p class="paragraph">@nathanf</p>
+        </div>
+        <h1 class="social__nework-followers">11k</h1>
+        <h2>Followers</h2>
+        <div class="social__network__number">
+          <img src="images/icon-up.svg" alt="Up">
+          <h3>1099 Today</h3>
+        </div>
+      </li>
+      <li class="social__network">
+        <div class="social__network__id">
+          <img src="images/icon-youtube.svg" alt="facebook icon">
+          <p class="paragraph">@nathanf</p>
+        </div>
+        <h1 class="social__nework-followers">8239</h1>
+        <h2>Subscribers</h2>
+        <div class="social__network__number">
+          <img src="images/icon-down.svg" alt="Up">
+          <h3>144 Today</h3>
+        </div>
+      </li>
+    </ul>
+  </section>
+  
+  
+  <!-- Social Media Dashboard
   Total Followers: 23,004
 
   Dark Mode
@@ -78,7 +135,7 @@
   Total Views
   1407
   12%
-  
+   -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
