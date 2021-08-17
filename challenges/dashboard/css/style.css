@@ -38,6 +38,7 @@ body{
   
 }
 
+
 .attribution{
   font-size: 11px;
   text-align: center; 
@@ -70,7 +71,57 @@ body{
 
 .header__mode {
   display: flex;
+  align-items: center;
 }
+
+.header__mode h2{
+  font-size: 1em;
+  padding: 10px;
+  color: white;
+}
+
+/* Checkbox */
+
+.on-off__checkbox{
+  position: absolute;
+  left: -9999px;
+}
+
+.on-off__btn{
+  display: inline-block;
+  vertical-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.on-off__btn::before, .on-off__btn::after{
+  content:"";
+  transition: all 0.2s ease;
+}
+
+.on-off__btn::before{
+  display: inline-block;
+  width: 3em;
+  height: 1.5em;
+  background: linear-gradient(to right, hsl(210, 78%, 56%) , hsl(146, 68%, 55%));
+  border-radius: 1em;
+}
+
+.on-off__btn::after{
+  position: absolute;
+  top: 0.1em;
+  left: 0.2em;
+  width: 1.3em;
+  height: 1.3em;
+  background: white;
+  border-radius: 50%;
+
+}
+
+.on-off__checkbox:checked + .on-off__btn::after{
+  left: 1.58em;
+}
+
 
 /* Social */
 
@@ -176,4 +227,132 @@ body{
 .social__network:hover{
   background-color: hsl(229, 27%, 28%);
   transition: 0.2s;
+}
+
+/* Overview */
+
+.overview{
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.overview__list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.overview h1{
+  margin: 0 0 30px 0;
+}
+
+.overview__network{
+  background-color: hsl(228, 28%, 20%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 238px;
+  transition: 0.2s;
+  margin-bottom: 30px;
+  transition: 0.2s;
+}
+
+.overview__network-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview__network-top p, .overview__network-top img{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.overview__network-top p{
+  margin-left: 25px;
+}
+
+.overview__network-top img{
+  margin-right: 25px;
+}
+
+.overview__network-top p{
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.overview__network-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.overview__network-bottom img, .overview__network-bottom h3{
+  display: inline-block;
+  margin-top: 20px;
+  
+}
+
+.overview__network-bottom h2{
+  margin-left: 25px;
+  font-size: 2em;
+}
+
+.overview__network-bottom h3{
+  font-size: 0.75em;
+  color: hsl(163, 72%, 41%);
+  margin-right: 25px;
+}
+
+.overview__network-bottom img{
+  margin-bottom: 2px;
+  
+}
+
+/* Overview hover */
+
+.overview__network:hover{
+  background-color: hsl(229, 27%, 28%);
+  transition: 0.2s;
+}
+
+/* Dashboard White ----------------------------------------------------------------------------- */
+
+.white{
+  background: white;
+  color: hsl(230, 17%, 14%);
+}
+
+.white p{
+  color: hsl(228, 12%, 44%);
+}
+
+.white .header__mode h2{
+  color: hsl(228, 34%, 66%);
+}
+
+.white .social .social__network{
+  background-color: hsl(227, 47%, 96%);
+}
+
+.white .social .social__network:hover{
+  background-color: hsl(223, 11%, 87%);
+}
+
+.white .overview h1{
+  color: hsl(228, 12%, 44%);
+}
+
+.white .overview .overview__network{
+  background-color: hsl(227, 47%, 96%);
+}
+
+.white .overview .overview__network:hover{
+  background-color: hsl(223, 11%, 87%);
+}
+
+/* Media Querie --------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  
 }
