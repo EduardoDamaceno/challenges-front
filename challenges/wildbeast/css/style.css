@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400&display=swap');
+/* Reset */
+
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Vollkorn", Arial, Helvetica, sans-serif;
+  color: #161616;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+img{
+  max-width: 100px;
+}
+
+/* Grid geral */
+
+.estrutura{
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+  grid-template-areas: 
+    'header header header'
+    'sidenav content anuncios'
+    'footer footer footer'
+  ;
+}
+
+.header{
+  grid-area: header;
+}
+
+.sidenav{
+  grid-area: sidenav;
+}
+
+.content{
+  grid-area: content;
+}
+
+.anuncios{
+  grid-area: anuncios;
+}
+
+.footer{
+  grid-area: footer;
+}
