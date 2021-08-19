@@ -80,21 +80,149 @@ img{
   margin-left: 30px;
 }
 
+/*  SideNav  */
+
 .sidenav{
   grid-area: sidenav;
+  background: #fafbfc;
+  padding: 30px;
 }
 
+.sidenav li a{
+  display: block;
+  min-width: 60px;
+  max-width: 100px;
+  margin: 0 auto 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+  transition: 0.1s ease-out;
+}
+
+.sidenav li a:hover{
+  background: #B07Dfb;
+}
+
+/* Content */
 .content{
   grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px; 
 }
 
+.col-wide{
+  grid-column: 1 / -1;
+}
+
+.imagem-1{
+  grid-row: span 2;
+  align-self: end;
+}
+
+.imagem-2{
+  align-self: end;
+}
+
+/* Estilos Gerais */
+
+p{
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, .7);
+}
+
+.informacoes p + p{
+  margin-top: 30px;
+}
+
+/* Titulo */
+
+.titulo{
+  color: #B07Dfb;
+}
+
+.titulo h1{
+  font-size: 3.75em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.titulo span{
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+/* Caractersticas */
+.caracteristicas {
+  display: flex;
+  align-items: flex-start;
+}
+
+.caracteristicas > div {
+  width: 80px;
+  text-align: center;
+  background: linear-gradient(135deg , #8844ee, #B07Dfb);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+  position: relative;
+}
+
+.caracteristicas > div:first-child{
+  margin-right: 30px;
+}
+
+.caracteristicas span{
+  display: block;
+}
+
+.numero{
+  color:#B07Dfb;
+  font-size: 3rem;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+.rotulo{
+  background: white;
+  border-radius: 0 0 5px 5px;
+  color: #B07Dfb;
+  padding: 5px 0;
+  position: relative;
+  top: 2px;
+}
+
+/* Anuncios */
 .anuncios{
   grid-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  border-radius: 5px;
+  padding: 30px;
+  grid-gap: 30px;
 }
+
+/* Footer */
 
 .footer{
   grid-area: footer;
+  background: linear-gradient(135deg , #8844ee, #B07Dfb);
 }
 
+.footer p{
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer a{
+  color: white;
+}
 
 
