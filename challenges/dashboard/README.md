@@ -1,7 +1,7 @@
 <h1> Frontend Mentor - Social media dashboard with theme switcher </h1>
-
+<p align="center">
 <img src="./design/desktop-preview.jpg">
-
+</p>
 
 
 
@@ -19,4 +19,6 @@
   
   <h1>Demonstração Final</h1>
   <p>Clique na imagem para ir até a aplicação web</p>
+  <p align="center">
  <a href="https://eduardodamaceno.github.io/challenges-front/challenges/dashboard/index.html" target="_blank"><img src="./design/desktop-preview.jpg"></a>
+ </p>
