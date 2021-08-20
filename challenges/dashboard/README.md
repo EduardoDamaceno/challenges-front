@@ -19,4 +19,4 @@
   
   <h1>Demonstração Final</h1>
   <p>Clique na imagem para ir até a aplicação web</p>
- <a href="https://eduardodamaceno.github.io/challenges-front/challenges/dashboard/index.html"><img src="desing/desktop-design-dark.jpg"></a>
+ <a href="https://eduardodamaceno.github.io/challenges-front/challenges/dashboard/index.html" target="_blank"><img src="./design/desktop-preview.jpg"></a>
