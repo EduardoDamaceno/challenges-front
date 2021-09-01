@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+/* Reset */
+
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #222222;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Atribuition */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* General Styles */
+
+*{
+  font-family: 'Spartan';
+}
+
+body{
+  background-color: hsl(222, 26%, 31%);
+}
+
+/* Calculator */
+.calculator{
+  max-width: 450px;
+  margin: 70px auto;
+}
+
+/* Calculator Header */
+
+.calculator__header{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.calculator__header h1{
+  font-size: 2em;
+}
+
+.calculator__header p{
+  font-size: 0.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.calculator__header p:nth-child(2){
+  letter-spacing: 0.5em;
+}
+
+/* Calculator Display */
+
+.calculator__display{
+  background-color: hsl(224, 36%, 15%);
+  color: white;
+  border-radius: 10px;
+}
+
+.calculator__display h1{
+  text-align: right;
+  font-size: 2.5em;
+  padding: 30px 25px;
+}
+
+/* Calculator Keypad */
+
+.calculator__keypad-bg{
+  background-color: hsl(223, 31%, 20%);
+  margin: 15px 0;
+  border-radius: 10px;
+} 
+
+.calculator__keypad{
+  padding: 25px 25px;
+  display: grid;
+  justify-content: space-between;
+  grid: 50px 50px 50px 50px/ 80px 80px 80px 80px;
+  gap: 20px;
+}
+
+.calculator__keypad__num{
+  text-align: center;
+  background-color: hsl(30, 25%, 89%);
+  border-radius: 10px;
+  border-bottom: 3px solid hsl(28, 16%, 65%);
+  color: hsl(221, 14%, 31%); 
+  font-size: 0.8em;
+  padding-top: 10px;
+}
+
+.calculator__keypad__num:nth-child(4){
+  background-color: hsl(225, 21%, 49%);
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+  color: white;
+  font-size: 0.5em;
+  padding-top: 17px;
+}
+
+.calculator__keypad__res{
+  text-align: center;
+  background-color: hsl(225, 21%, 49%);
+  border-radius: 10px;
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+  color: white; 
+  font-size: 0.5em;
+  width: 187px;
+  height: 50px;
+  text-transform: uppercase;
+  padding-top: 17px;
+}
+
+
+.calculator__keypad__resul{
+  text-align: center;
+  background-color: hsl(6, 63%, 50%);
+  border-radius: 10px;
+  border-bottom: 3px solid hsl(6, 70%, 34%);
+  color: white; 
+  font-size: 0.5em;
+  width: 187px;
+  text-transform: uppercase;
+  margin-left: 107px;
+  padding-top: 17px;
+}
