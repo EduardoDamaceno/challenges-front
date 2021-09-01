@@ -46,7 +46,7 @@ body{
 /* Calculator */
 .calculator{
   max-width: 450px;
-  margin: 70px auto;
+  margin: 40px auto;
 }
 
 /* Calculator Header */
@@ -78,6 +78,7 @@ body{
   background-color: hsl(224, 36%, 15%);
   color: white;
   border-radius: 10px;
+  height: 105px;
 }
 
 .calculator__display h1{
