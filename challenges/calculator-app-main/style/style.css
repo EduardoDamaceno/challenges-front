@@ -147,3 +147,19 @@ body{
   margin-left: 107px;
   padding-top: 17px;
 }
+
+@media only screen and (max-width: 600px) {
+  .calculator{
+    max-width: 420px;
+  }
+
+  .calculator__keypad__res{
+    width: 180px;
+  }
+
+  .calculator__keypad__resul{
+    width: 180px;
+    margin-left: 100px;
+  }
+ 
+}
