@@ -79,6 +79,8 @@ body{
   color: white;
   border-radius: 10px;
   height: 105px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .calculator__display h1{
@@ -111,6 +113,13 @@ body{
   color: hsl(221, 14%, 31%); 
   font-size: 0.8em;
   padding-top: 10px;
+  cursor: pointer;
+}
+
+
+.calculator__keypad__num:active{
+  background-color: #B5A596;
+  margin-top: 2px;
 }
 
 .calculator__keypad__num:nth-child(4){
@@ -119,6 +128,10 @@ body{
   color: white;
   font-size: 0.5em;
   padding-top: 17px;
+}
+
+.calculator__keypad__num:nth-child(4):active{
+  background-color: #404E71;
 }
 
 .calculator__keypad__res{
@@ -135,6 +148,13 @@ body{
 }
 
 
+
+.calculator__keypad__res:active{
+  background-color: #404E71;
+  margin-top: 2px;
+  height: 48px;
+}
+
 .calculator__keypad__resul{
   text-align: center;
   background-color: hsl(6, 63%, 50%);
@@ -146,6 +166,12 @@ body{
   text-transform: uppercase;
   margin-left: 107px;
   padding-top: 17px;
+}
+
+.calculator__keypad__resul:active{
+  background-color: hsl(6, 70%, 34%);
+  margin-top: 2px;
+  height: 48px;
 }
 
 @media only screen and (max-width: 600px) {

@@ -25,7 +25,7 @@ dot.addEventListener("click", numDot)
 reset.addEventListener("click", delet)
 more.addEventListener("click", mathOperator)
 less.addEventListener("click", mathOperator)
-x.addEventListener("click", mathOperator) 
+x.addEventListener("click", multiply) 
 slash.addEventListener("click", mathOperator)
 del.addEventListener("click", delet)
 num9.addEventListener("click", displayNum)
@@ -62,6 +62,12 @@ function mathOperator(num){
   display.innerHTML += " "
 }
 
+function multiply(){
+  if (display.innerHTML.includes("+") || display.innerHTML.includes("-") || display.innerHTML.includes("*") || display.innerHTML.includes("/")){
+    return ;
+  }
+  display.innerHTML += " * "
+}
 
 function countResult() {
    let count = eval(display.innerText)
