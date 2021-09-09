@@ -178,16 +178,33 @@ body{
 
 @media only screen and (max-width: 600px) {
   .calculator{
-    max-width: 420px;
+    max-width: 360px;
+    
+  }
+
+  .calculator__keypad{
+    padding: 20px 40px 20px 30px;
+    
+    column-gap: 0px;
+    grid: 50px 50px 50px 50px/ 50px 50px 50px 50px;
+  }
+
+  .calculator__keypad__num{
+    padding-top: 15px;
+    width: 65px;
+    height: 60px;
+    border-radius: 5px;
   }
 
   .calculator__keypad__res{
-    width: 180px;
+    width: 145px;
+    border-radius: 5px;
   }
 
   .calculator__keypad__resul{
-    width: 180px;
-    margin-left: 100px;
+    width: 145px;
+    margin-left: 80px;
+    border-radius: 5px;
   }
  
 }
