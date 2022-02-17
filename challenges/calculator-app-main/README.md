@@ -18,7 +18,3 @@
   <h1>Demonstração Final</h1>
   <p>Clique na imagem para ir até a aplicação web</p>
  <a href="https://eduardodamaceno.github.io/challenges-front/challenges/calculator-app-main/index.html"><img src="images/projectfinal.jpg"></a>
-
-
-
-
