@@ -1,0 +1,54 @@
+@import './reset.css';
+@import './utilities/typography.css';
+@import './utilities/components.css';
+
+.container{
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header{
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 100px;
+}
+
+.main__div h1{
+  padding-bottom: 36px;
+}
+
+
+.main__div p{
+  max-width: 381px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 375px){
+  .main{
+    grid-template-columns: 1fr;
+  }
+
+  .header{
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .main__div h1{
+    padding-bottom: 30px;
+  }
+  
+  
+  .main__div p{
+    max-width: 381px;
+    padding-bottom: 66px;
+  }
+}
+

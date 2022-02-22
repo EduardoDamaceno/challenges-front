@@ -1,0 +1,24 @@
+.button{
+  font: 700 0.875rem/1.5 'Space Mono', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+  padding: 1.5rem 2.7rem;
+  color: #ffffff;
+  background-color: #333333;
+  display: inline-block;
+  border: 2px solid #333333;
+  transition: 0.3s;
+  
+}
+
+.button:hover{
+  color: #333333;
+  background-color: #fff;
+  
+}
+
+@media (max-width: 800px){
+  .button{
+    margin-bottom: 40px;
+  }
+}
