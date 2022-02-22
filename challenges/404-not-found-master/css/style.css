@@ -19,6 +19,7 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 100px;
+  padding-bottom: 35px;
 }
 
 .main__div h1{
@@ -29,6 +30,21 @@
 .main__div p{
   max-width: 381px;
   padding-bottom: 80px;
+}
+
+.footer{
+  text-align: center;
+}
+
+.footer span{
+  font: 500 0.875rem/1 'Montserrat', sans-serif;
+  color: #BDBDBD;
+  
+}
+
+.footer span a{
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 @media (max-width: 375px){
